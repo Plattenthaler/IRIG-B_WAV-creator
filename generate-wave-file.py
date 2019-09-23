@@ -8,7 +8,7 @@ from scipy.io import wavfile
 
 #**********************************************editable information**********************************************************
 sampleRate = 44100 # hertz
-duration = 1     # playback time of the wav-file seconds
+duration = 0.3       # playback time of the wav-file in seconds
 frequency = 1000.0 # Modulation frequency of the IRIG-code in hertz
 ratio = 3.3/1	   # between high and low amplitude (standart 6/1 to 3/1)
 
