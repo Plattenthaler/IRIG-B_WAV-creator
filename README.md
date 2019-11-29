@@ -2,6 +2,7 @@ This is a simple Phyton3 script wich generates a customable IRIG-B wav-file (for
 
 This is the output plot:
 ![Output Plot](docs/output-plot.png)
+*output-plot with matplotlib after generating the wav-file*
 
 The blue line showes the normed voltage characteristics of the outputsignal and the orange line shows the interpetation of the irig-code. 2 means Position Identifier, 1 and 0 means digital 1 and 0.
 
@@ -10,6 +11,3 @@ inspirations:
 wave-code example http://blog.acipo.com/wave-generation-in-python/
 
 irig-code: http://manuals.spectracom.com/NC/Content/NC_and_SS/Com/Topics/APPENDIX/IRIGb.htm
-
-TODO:
-The straight binary seconds (Time of a day) (last 20ms) are not updated now!
